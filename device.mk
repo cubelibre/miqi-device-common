@@ -197,7 +197,8 @@ PRODUCT_PACKAGES += \
     NoiseField \
     PhaseBeam \
     librs_jni \
-    libjni_pinyinime
+    libjni_pinyinime \
+    package_phonemode.xml
 
 # HAL
 PRODUCT_PACKAGES += \

@@ -4,4 +4,5 @@ on fs
 #    mount ext4 /dev/block/platform/emmc/by-name/metadata /metadata wait noatime nodiratime nosuid nodev noauto_da_alloc,discard
 #    mount ext4 /dev/block/platform/emmc/by-name/userdata /data wait noatime nodiratime nosuid nodev noauto_da_alloc,discard
 #    mount ext4 /dev/block/platform/emmc/by-name/cache /cache wait noatime nodiratime nosuid nodev noauto_da_alloc,discard
+    mount vfat /dev/block/platform/ff0f0000.rksdmmc/by-name/user /mnt/internal_sd wait nosuid
     mount_all fstab.rk30board

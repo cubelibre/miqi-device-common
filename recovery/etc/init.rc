@@ -32,6 +32,7 @@ on init
     mkdir /data
     mkdir /cache
     mkdir /sideload
+    mkdir /gapps
     mount tmpfs tmpfs /tmp
 
     chown root shell /tmp
